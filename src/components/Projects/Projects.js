@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-
+import imagg from "../../Assets/first-half_prev_ui.png";
 
 function Projects() {
   return (
@@ -18,7 +18,7 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={b}
+              imgPath={imagg}
               isBlog={false}
               title="Chatify"
               description=""
@@ -29,7 +29,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={b}
+              imgPath={imagg}
               isBlog={false}
               title="Bits-0f-C0de"
               description=""
@@ -40,7 +40,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={b}
+              imgPath={imagg}
               isBlog={false}
               title="Editor.io"
               description=""
@@ -51,7 +51,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={b}
+              imgPath={imagg}
               isBlog={false}
               title="Plant AI"
               description=""
@@ -62,7 +62,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={b}
+              imgPath={imagg}
               isBlog={false}
               title="Ai For Social Good"
               description=""
@@ -73,7 +73,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={b}
+              imgPath={imagg}
               isBlog={false}
               title=""
               description=""
