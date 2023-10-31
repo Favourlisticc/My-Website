@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
+import myImg from "../../Assets/me.jpg";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
@@ -19,22 +19,21 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
+            I have developed a passion for  <i>
+                <b className="purple">Software Development </b>
+              </i>, and along my journey, I've <i>
+                <b className="purple">acquired valuable skills and knowledge </b>
+              </i>. Now, I find great enjoyment in the process of  creating software. 🚀
               <br />
               <br />I am fluent in classics like
               <i>
-                <b className="purple"> C++, Javascript and Go. </b>
+                <b className="purple"> Python, Javascript and Php. </b>
               </i>
               <br />
               <br />
               My field of Interest's are building new &nbsp;
               <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
-                <b className="purple">
-                  Blockchain.
-                </b>
+                <b className="purple">Web Technologies and Products </b>
               </i>
               <br />
               <br />
@@ -53,9 +52,9 @@ function Home2() {
             </p>
           </Col>
           <Col md={4} className="myAvtar">
-            <Tilt>
+
               <img src={myImg} className="img-fluid" alt="avatar" />
-            </Tilt>
+
           </Col>
         </Row>
         <Row>
@@ -67,7 +66,7 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="./"
+                  href="https://github.com/Favourlisticc"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
