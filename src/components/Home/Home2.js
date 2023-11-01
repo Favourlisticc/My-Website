@@ -61,7 +61,7 @@ function Home2() {
           <Col md={12} className="home-about-social">
             <h1>FIND ME ON</h1>
             <p>
-              Feel free to <span className="purple">connect </span>with me
+              Feel free to <span className="purple">connect </span>with m
             </p>
             <ul className="home-about-social-links">
               <li className="social-icons">
@@ -76,7 +76,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="./"
+                  href="https://twitter.com/favourlistic_1"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -86,7 +86,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="./"
+                  href="https://www.linkedin.com/in/simon-favour-885539230"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
