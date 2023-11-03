@@ -14,6 +14,10 @@ html {
   --imp-text-color: #c770f0;
 }
 
+.For-techicons{
+  font-size: 5px;
+}
+
 .purple {
   color: var(--imp-text-color) !important;
 }
@@ -307,7 +311,7 @@ button:focus {
 
 .myAvtar {
   justify-content: center !important;
-  
+
 }
 
 @media (max-width: 767px) {
