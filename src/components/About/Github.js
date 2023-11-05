@@ -9,7 +9,7 @@ function Github() {
         Days I <strong className="purple">Code</strong>
       </h1>
       <GitHubCalendar
-        username="./"
+        username="https://github.com/Favourlisticc"
         blockSize={15}
         blockMargin={5}
         color="#c084f5"
