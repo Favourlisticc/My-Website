@@ -1,6 +1,6 @@
 {
   "name": "portfolio",
-  "version": "0.1.0",
+  "version": "",
   "private": true,
   "dependencies": {
     "@react-pdf/renderer": "^2.2.0",
@@ -23,8 +23,8 @@
     "stream": "^0.0.2",
     "typewriter-effect": "^2.18.2",
     "util": "^0.12.5",
-    "web-vitals": "^2.1.4",
-    "which": "^3.0.1"
+    "web-vitals": "^2.1.4"
+    
   },
   "scripts": {
     "start": "react-scripts start",
