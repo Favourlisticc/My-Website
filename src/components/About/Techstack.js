@@ -1,7 +1,7 @@
-import { Font } from "@react-pdf/renderer";
+// import { Font } from "@react-pdf/renderer";
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import { CgCPlusPlus } from "react-icons/cg";
+// import { CgCPlusPlus } from "react-icons/cg";
 import {
   DiJavascript1,
   DiReact,
@@ -28,14 +28,14 @@ function Techstack() {
         <DiJavascript1 />
         <p class="For-techicons">Javascript</p>
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <TbBrandGolang />
-      </Col>
+
       <Col xs={4} md={2} className="tech-icons">
         <DiNodejs />
+        <p class="For-techicons">NodeJs</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiReact />
+        <p class="For-techicons">ReactJS</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiSolidity />
