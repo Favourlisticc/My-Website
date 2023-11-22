@@ -37,32 +37,26 @@ function Techstack() {
         <DiReact />
         <p class="For-techicons">ReactJS</p>
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiSolidity />
-      </Col>
+
       <Col xs={4} md={2} className="tech-icons">
         <DiMongodb />
+        <p class="For-techicons">MongoDb</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiNextdotjs />
+        <p class="For-techicons">NextJS</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiGit />
+        <p class="For-techicons">GitHub</p>
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiFirebase />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiRedis />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiPostgresql />
-      </Col>
+
       <Col xs={4} md={2} className="tech-icons">
         <DiPython />
+        <p class="For-techicons">Python</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiJava />
+      <p class="For-techicons">Html</p>
       </Col>
     </Row>
   );
