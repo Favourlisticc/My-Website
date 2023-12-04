@@ -9,7 +9,7 @@ function Type() {
           "FrontEnd",
           "BackEnd",
           "Software Developer",
-          "Freelancer",
+          "FullStack",
           "MERN Stack Developer",
         ],
         autoStart: true,

@@ -8,26 +8,41 @@ import {
   DiNodejs,
   DiMongodb,
   DiPython,
-  DiGit,
+  DiGit
 
 } from "react-icons/di";
 import {
 
   SiNextdotjs,
+  SiTailwindcss
 
 } from "react-icons/si";
 import {  } from "react-icons/tb";
-
+import { BiLogoHtml5 } from "react-icons/bi";
+import { FaCss3Alt } from "react-icons/fa";
+import { TbBrandJavascript } from "react-icons/tb";
+import { FaGithub } from "react-icons/fa";
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
      <Col xs={4} md={2} className="tech-icons">
+      <BiLogoHtml5 />
       <p class="For-techicons">Html</p>
+      </Col>
+
+       <Col xs={4} md={2} className="tech-icons">
+      <FaCss3Alt />
+      <p class="For-techicons">Css</p>
       </Col>
 
       <Col xs={4} md={2} className="tech-icons">
         <DiJavascript1 />
         <p class="For-techicons">Javascript</p>
+      </Col>
+
+      <Col xs={4} md={2} className="tech-icons">
+        <TbBrandJavascript />
+        <p class="For-techicons">ExpressJS</p>
       </Col>
 
       <Col xs={4} md={2} className="tech-icons">
@@ -39,6 +54,11 @@ function Techstack() {
         <p class="For-techicons">ReactJS</p>
       </Col>
 
+       <Col xs={4} md={2} className="tech-icons">
+        <SiTailwindcss />
+        <p class="For-techicons">Tailwind Css</p>
+      </Col>
+
       <Col xs={4} md={2} className="tech-icons">
         <DiMongodb />
         <p class="For-techicons">MongoDb</p>
@@ -48,8 +68,13 @@ function Techstack() {
         <p class="For-techicons">NextJS</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
+        <FaGithub />
         <p class="For-techicons">GitHub</p>
+      </Col>
+
+      <Col xs={4} md={2} className="tech-icons">
+        <DiGit />
+        <p class="For-techicons">Git</p>
       </Col>
 
       <Col xs={4} md={2} className="tech-icons">
