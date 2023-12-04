@@ -17,7 +17,7 @@ import {
   SiTailwindcss
 
 } from "react-icons/si";
-import {  } from "react-icons/tb";
+
 import { BiLogoHtml5 } from "react-icons/bi";
 import { FaCss3Alt } from "react-icons/fa";
 import { TbBrandJavascript } from "react-icons/tb";
