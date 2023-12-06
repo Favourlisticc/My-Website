@@ -2,7 +2,8 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import imagg from "../../Assets/first-half_prev_ui.png";
+import mywebsiteimg from "../../Assets/my-website-img.png";
+import taskimg from "../../Assets/favourtask-img.png";
 
 function Projects() {
   return (
@@ -18,65 +19,100 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={imagg}
+              imgPath={mywebsiteimg}
               isBlog={false}
-              title="Chatify"
-              description=""
-              ghLink="./"
-              demoLink="../"
+              title="MyWebsite"
+              description=" My Portfolio"
+              ghLink="https://github.com/Favourlisticc/My-Website"
+              demoLink="https://www.simonfavoursunday.tech"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={imagg}
+              imgPath={mywebsiteimg}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description=""
-              ghLink=""
+              title="CharityDonate"
+              description=" My Portfolio"
+              ghLink="https://github.com/Favourlisticc/CharityDonate"
               demoLink=""
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={imagg}
+              imgPath={taskimg}
               isBlog={false}
-              title="Editor.io"
+              title="Favour Task aplication"
               description=""
-              ghLink=""
+              ghLink="https://github.com/Favourlisticc/Favour-To-Do-application"
+              demoLink="https://favour-to-do-app.netlify.app/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={mywebsiteimg}
+              isBlog={false}
+              title="Favour Delivery Company"
+              description=""
+              ghLink="https://github.com/Favourlisticc/DeliveryCompany"
               demoLink=""
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={imagg}
+              imgPath={mywebsiteimg}
               isBlog={false}
-              title="Plant AI"
+              title="Easy-Food-order-API-rest"
               description=""
-              ghLink=""
+              ghLink="https://github.com/Favourlisticc/Easy-Food-order-API-rest"
               demoLink=""
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={imagg}
+              imgPath={mywebsiteimg}
               isBlog={false}
-              title="Ai For Social Good"
+              title="Favour community Story-Book"
               description=""
-              ghLink=""
-              // demoLink="" <--------Please include a demo link here
+              ghLink="https://github.com/Favourlisticc/Story-Book"
+              demoLink=""
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={imagg}
+              imgPath={mywebsiteimg}
               isBlog={false}
-              title=""
+              title="a-simple-visa-system-done-with-reactj"
               description=""
+              ghLink="https://github.com/Favourlisticc/a-simple-visa-system-done-with-reactj"
+              // demoLink=""      <--------Please include a demo link here
+            />
+          </Col>
+
+{/* bonus clone */}
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={mywebsiteimg}
+              isBlog={false}
+              title="IOS-calculator-app"
+              description=""
+              ghLink="https://github.com/Favourlisticc/IOS-calculator-app"
+              // demoLink=""      <--------Please include a demo link here
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={mywebsiteimg}
+              isBlog={false}
+              title="Clone-of-Instagram-with-Laravel-PHP-framework"
+              description=""
+              ghLink="https://github.com/Favourlisticc/Clone-of-Instagram-with-Laravel-PHP-framework"
               // demoLink=""      <--------Please include a demo link here
             />
           </Col>
