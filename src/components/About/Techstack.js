@@ -18,7 +18,7 @@ import {
 
 } from "react-icons/si";
 
-// import { BiLogoHtml5 } from "react-icons/bi";
+import { BiLogoHtml5 } from "react-icons/bi";
 import { FaCss3Alt } from "react-icons/fa";
 import { TbBrandJavascript } from "react-icons/tb";
 import { FaGithub } from "react-icons/fa";
@@ -26,7 +26,7 @@ function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
      <Col xs={4} md={2} className="tech-icons">
-      {/* <BiLogoHtml5 /> */}
+      <BiLogoHtml5 />
       <p class="For-techicons">Html</p>
       </Col>
 
