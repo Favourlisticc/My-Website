@@ -4,6 +4,7 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import mywebsiteimg from "../../Assets/my-website-img.png";
 import taskimg from "../../Assets/favourtask-img.png";
+import favdeliveryimg from "../../Assets/delivery-img.png";
 
 function Projects() {
   return (
@@ -52,12 +53,12 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={mywebsiteimg}
+              imgPath={favdeliveryimg}
               isBlog={false}
               title="Favour Delivery Company"
               description=""
               ghLink="https://github.com/Favourlisticc/DeliveryCompany"
-              demoLink=""
+              demoLink="https://favour-personal-delivery-company.onrender.com/"
             />
           </Col>
 
