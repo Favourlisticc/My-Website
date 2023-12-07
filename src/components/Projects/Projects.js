@@ -2,9 +2,11 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
+
 import mywebsiteimg from "../../Assets/my-website-img.png";
 import taskimg from "../../Assets/favourtask-img.png";
 import favdeliveryimg from "../../Assets/delivery-img.png";
+import foodimg from "../../Assets/food-img.png"
 
 function Projects() {
   return (
@@ -64,7 +66,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={mywebsiteimg}
+              imgPath={foodimg}
               isBlog={false}
               title="Easy-Food-order-API-rest"
               description=""
