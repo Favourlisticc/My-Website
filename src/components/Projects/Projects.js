@@ -7,6 +7,8 @@ import mywebsiteimg from "../../Assets/my-website-img.png";
 import taskimg from "../../Assets/favourtask-img.png";
 import favdeliveryimg from "../../Assets/delivery-img.png";
 import foodimg from "../../Assets/food-img.png"
+import storybook from "../../Assets/storybook-img.png";
+import visaimg from "../../Assets/visa-img.png"
 
 function Projects() {
   return (
@@ -22,23 +24,27 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
+
               imgPath={mywebsiteimg}
               isBlog={false}
-              title="MyWebsite"
-              description=" My Portfolio"
+              title="My Personnal Website"
+              description="This is my personal website which i built with reactjs, doesnt have much animation but i has everything about me"
               ghLink="https://github.com/Favourlisticc/My-Website"
               demoLink="https://www.simonfavoursunday.tech"
             />
           </Col>
 
           <Col md={4} className="project-card">
+
             <ProjectCard
+              working={true}
               imgPath={mywebsiteimg}
               isBlog={false}
               title="CharityDonate"
-              description=" My Portfolio"
+              description="This a donation web-application that am currently working on with a group of fantatic people with me been the fullstack developer, with time i will update the stacks am using"
               ghLink="https://github.com/Favourlisticc/CharityDonate"
               demoLink=""
+
             />
           </Col>
 
@@ -47,7 +53,7 @@ function Projects() {
               imgPath={taskimg}
               isBlog={false}
               title="Favour Task aplication"
-              description=""
+              description="This is a simple To-do helping web-application for taskmanagement and user friendly, created using raw html, css and javascript and it has a static database so it has timing before it restarts"
               ghLink="https://github.com/Favourlisticc/Favour-To-Do-application"
               demoLink="https://favour-to-do-app.netlify.app/"
             />
@@ -77,7 +83,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={mywebsiteimg}
+              imgPath={storybook}
               isBlog={false}
               title="Favour community Story-Book"
               description=""
@@ -88,7 +94,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={mywebsiteimg}
+              imgPath={visaimg}
               isBlog={false}
               title="a-simple-visa-system-done-with-reactj"
               description=""
