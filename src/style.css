@@ -132,11 +132,11 @@ button:focus {
   transition: transform 0.35s ease-in-out !important;
 }
 
-.navbar-toggler:not(.collapsed) span:nth-child(1) {
+.navbar-toggler:not(.psed) span:nth-child(1) {
   position: absolute !important;
   left: 12px !important;
-  top: 10px !important;
-  transform: rotate(135deg) !important;
+  top: 23px !important;
+  /* transform: rotate(135deg) !important; */
   opacity: 0.9 !important;
 }
 
@@ -169,8 +169,13 @@ button:focus {
 }
 
 .logo {
-  height: 1.4em !important;
-  width: 2.5em !important;
+  height: 2.4em !important;
+  width: 10.5em !important;
+  margin-top: 15px !important;
+}
+
+.mobile-icon{
+  display: none;
 }
 
 .navbar-nav .nav-link {
@@ -187,6 +192,13 @@ button:focus {
   .nav-link {
     padding: 0.7rem 1rem !important;
   }
+  .desktop-icon{
+    display: none;
+  }
+  .mobile-icon{
+    display:flex;
+  }
+
 }
 
 .navbar-nav .nav-item {
