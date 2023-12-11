@@ -27,10 +27,10 @@ function ResumeNew() {
             variant="primary"
             href={pdfFile}
             target="_blank"
-            style={{ maxWidth: "270px" }}
+            style={{ maxWidth: "310px" }}
           >
             <AiOutlineDownload />
-            &nbsp;Download my CV or Resume
+            &nbsp;View or Download my full Resume
           </Button>
         </Row>
 
@@ -46,10 +46,10 @@ function ResumeNew() {
             variant="primary"
             href={pdfFile}
             target="_blank"
-            style={{  maxWidth: "270px"}}
+            style={{  maxWidth: "310px"}}
           >
             <AiOutlineDownload />
-            &nbsp;Download my CV or Resume
+            &nbsp;View or Download my full Resume
           </Button>
         </Row>
       </Container>
