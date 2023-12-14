@@ -28,6 +28,13 @@ html {
   color: #c770f0;
 }
 
+.language-used{
+  background-color: white;
+  color: #68187a;
+  margin: 0px;
+  padding: 0px;
+}
+
 .purple {
   color: var(--imp-text-color) !important;
 }
@@ -532,7 +539,7 @@ button:focus {
 
 .card-img-top {
   padding: 20px !important;
- 
+
   border-radius: 10px !important;
 }
 

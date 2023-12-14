@@ -24,6 +24,7 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
+              button= "React"
 
               imgPath={mywebsiteimg}
               isBlog={false}
@@ -40,7 +41,7 @@ function Projects() {
               working={true}
               imgPath={mywebsiteimg}
               isBlog={false}
-              title="CharityDonate"
+              title="Charity Donate"
               description="This a donation web-application that am currently working on with a group of fantatic people with me been the fullstack developer, with time i will update the stacks am using"
               ghLink="https://github.com/Favourlisticc/CharityDonate"
               demoLink=""
@@ -74,7 +75,7 @@ function Projects() {
             <ProjectCard
               imgPath={foodimg}
               isBlog={false}
-              title="Easy-Food-order-API-rest"
+              title="Easy Food Order Application"
               description=""
               ghLink="https://github.com/Favourlisticc/Easy-Food-order-API-rest"
               demoLink=""
@@ -96,7 +97,7 @@ function Projects() {
             <ProjectCard
               imgPath={visaimg}
               isBlog={false}
-              title="a-simple-visa-system-done-with-reactj"
+              title="A Simple Visa Application"
               description=""
               ghLink="https://github.com/Favourlisticc/a-simple-visa-system-done-with-reactj"
               // demoLink=""      <--------Please include a demo link here
@@ -108,7 +109,7 @@ function Projects() {
             <ProjectCard
               imgPath={mywebsiteimg}
               isBlog={false}
-              title="IOS-calculator-app"
+              title="IOS Calculator App"
               description=""
               ghLink="https://github.com/Favourlisticc/IOS-calculator-app"
               // demoLink=""      <--------Please include a demo link here
@@ -119,7 +120,7 @@ function Projects() {
             <ProjectCard
               imgPath={mywebsiteimg}
               isBlog={false}
-              title="Clone-of-Instagram-with-Laravel-PHP-framework"
+              title="Clone of Instagram"
               description=""
               ghLink="https://github.com/Favourlisticc/Clone-of-Instagram-with-Laravel-PHP-framework"
               // demoLink=""      <--------Please include a demo link here

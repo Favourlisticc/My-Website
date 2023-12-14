@@ -28,6 +28,10 @@ function ProjectCards(props) {
         <Card.Text style={{ textAlign: "" }}>
           {props.description}
         </Card.Text>
+        <Card.Text className="language-used">
+          {props.button}
+        </Card.Text>
+
         <Button variant="primary" href={props.ghLink} target="_blank">
           <BsGithub /> &nbsp;
           {props.isBlog ? "Blog" : "GitHub"}
