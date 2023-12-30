@@ -9,6 +9,7 @@ import favdeliveryimg from "../../Assets/delivery-img.png";
 import foodimg from "../../Assets/food-img.png"
 import storybook from "../../Assets/storybook-img.png";
 import visaimg from "../../Assets/visa-img.png"
+import charityimg from "../../Assets/Screenshot (30).png"
 
 function Projects() {
   return (
@@ -39,12 +40,12 @@ function Projects() {
 
             <ProjectCard
               working={true}
-              imgPath={mywebsiteimg}
+              imgPath={charityimg}
               isBlog={false}
               title="Charity Donate"
               description="This a donation web-application that am currently working on with a group of fantatic people with me been the fullstack developer, with time i will update the stacks am using"
-              ghLink="https://github.com/Favourlisticc/CharityDonate"
-              demoLink=""
+              ghLink="https://github.com/Favourlisticc/charity-frontend"
+              demoLink="https://charity-donation.onrender.com/"
 
             />
           </Col>
