@@ -10,6 +10,8 @@ import foodimg from "../../Assets/food-img.png"
 import storybook from "../../Assets/storybook-img.png";
 import visaimg from "../../Assets/visa-img.png"
 import charityimg from "../../Assets/Screenshot (30).png"
+import sanieldanimg from "../../Assets/sanieldan-portal.png"
+import traiimage from "../../Assets/trai.png"
 
 function Projects() {
   return (
@@ -35,6 +37,47 @@ function Projects() {
               demoLink="https://www.simonfavoursunday.tech"
             />
           </Col>
+
+          <Col md={4} className="project-card">
+
+          <ProjectCard
+            working={true}
+            imgPath={sanieldanimg}
+            isBlog={false}
+            title="Saniel Portal For Admin and Users"
+            description="This is a web-app, where all-in-one solution for buying, selling, and managing properties. The platform offers a seamless experience for both users and administrators, providing intuitive tools and robust features to streamline real estate transactions and property management tasks."
+            demoLink="https://charity-donation.onrender.com/"
+
+          />
+          </Col>
+
+          <Col md={4} className="project-card">
+
+            <ProjectCard
+              working={true}
+              imgPath={traiimage}
+              isBlog={false}
+              title="Trai RecuitrAgency"
+              description="This a donation web-application that am currently working on with a group of fantatic people with me been the fullstack developer, with time i will update the stacks am using"
+              ghLink="https://github.com/Favourlisticc/charity-frontend"
+              demoLink="https://charity-donation.onrender.com/"
+
+            />
+            </Col>
+
+            <Col md={4} className="project-card">
+
+            <ProjectCard
+              working={true}
+              imgPath={charityimg}
+              isBlog={false}
+              title="Charity Donate"
+              description="This a donation web-application that am currently working on with a group of fantatic people with me been the fullstack developer, with time i will update the stacks am using"
+              ghLink="https://github.com/Favourlisticc/charity-frontend"
+              demoLink="https://charity-donation.onrender.com/"
+
+            />
+            </Col>
 
           <Col md={4} className="project-card">
 
