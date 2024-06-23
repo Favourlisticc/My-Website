@@ -5,6 +5,7 @@ import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
 import Img from "../../Assets/sticker.webp"
+import Img from "../../Assets/sticker.webp"
 
 function Home() {
   return (
