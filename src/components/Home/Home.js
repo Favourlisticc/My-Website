@@ -5,7 +5,7 @@ import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
 import Img from "../../Assets/sticker.webp"
-
+https://github.com/Lomoee/My-Website.git/
 
 function Home() {
   return (
