@@ -4,6 +4,7 @@ import homeLogo from "../../Assets/home-main.png";
 import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
+import Img from "../../Assets/sticker.webp"
 
 function Home() {
   return (
@@ -32,9 +33,9 @@ function Home() {
 
             <Col md={5} style={{ paddingBottom: 20 }}>
               <img
-                src={homeLogo}
+                src={Img}
                 alt="home pic"
-                className="img-fluid"
+                className="img-fluid rounded"
                 style={{ maxHeight: "450px" }}
               />
             </Col>
