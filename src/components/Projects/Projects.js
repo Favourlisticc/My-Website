@@ -12,6 +12,9 @@ import visaimg from "../../Assets/visa-img.png"
 import charityimg from "../../Assets/Screenshot (30).png"
 import sanieldanimg from "../../Assets/sanieldan-portal.png"
 import traiimage from "../../Assets/trai.png"
+import Pozse from "../../Assets/Screenshot (223).png"
+import thenftbubbles from "../../Assets/thenfthub.png"
+import giftawish from "../../Assets/giftawish.png"
 
 function Projects() {
   return (
@@ -27,7 +30,7 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              button= "React"
+          
 
               imgPath={mywebsiteimg}
               isBlog={false}
@@ -41,7 +44,46 @@ function Projects() {
           <Col md={4} className="project-card">
 
           <ProjectCard
-            working={true}
+            imgPath={Pozse}
+            isBlog={false}
+            title="Pozse"
+            description="Pozse is your premier online destination for fashion enthusiasts. Our website is designed to cater to all your fashion needs, offering a wide range of categories that showcase the latest trends and timeless styles."
+            ghLink=""
+            demoLink="https://www.pozse.com/"
+
+          />
+          </Col>
+
+          <Col md={4} className="project-card">
+
+          <ProjectCard
+            imgPath={thenftbubbles}
+            isBlog={false}
+            title="Nft Bubbles"
+            description="NFT Bubbles is a web application that visualizes data about different Ethereum NFT collections in near-real time. Each collection is represented by a bubble, where its size and color indicate the magnitude and sign of the variation of a given metric, such as trading volume or floor price."
+            ghLink=""
+            demoLink="https://thenfthub.xyz/"
+
+          />
+          </Col>
+
+          <Col md={4} className="project-card">
+
+          <ProjectCard
+            imgPath={giftawish}
+            isBlog={false}
+            title="Giftawish"
+            description="WishFilled is a social platform geared towards promoting love and sharing of gifts globally by making people’s wishes come through in the most seamless and trusted way."
+            ghLink=""
+            demoLink="https://giftawish.vercel.app/"
+
+          />
+          </Col>
+
+          <Col md={4} className="project-card">
+
+          <ProjectCard
+            
             imgPath={sanieldanimg}
             isBlog={false}
             title="Saniel Portal For Admin and Users"
@@ -54,7 +96,7 @@ function Projects() {
           <Col md={4} className="project-card">
 
             <ProjectCard
-              working={true}
+              
               imgPath={traiimage}
               isBlog={false}
               title="Trai RecuitrAgency"
@@ -65,24 +107,13 @@ function Projects() {
             />
             </Col>
 
-            <Col md={4} className="project-card">
+           
 
-            <ProjectCard
-              working={true}
-              imgPath={charityimg}
-              isBlog={false}
-              title="Charity Donate"
-              description="This a donation web-application that am currently working on with a group of fantatic people with me been the fullstack developer, with time i will update the stacks am using"
-              ghLink="https://github.com/Favourlisticc/charity-frontend"
-              demoLink="https://charity-donation.onrender.com/"
-
-            />
-            </Col>
 
           <Col md={4} className="project-card">
 
             <ProjectCard
-              working={true}
+              
               imgPath={charityimg}
               isBlog={false}
               title="Charity Donate"
